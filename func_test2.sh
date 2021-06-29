@@ -7,5 +7,6 @@ function RetValue
 }
 
 RetValue
-echo "함수 반환값 [$?]"
-echo "함수 반환값 [$?]"
+TEMP=${?}
+echo "함수 반환값 [${?}]"
+echo "함수 반환값 [${TEMP}]"
